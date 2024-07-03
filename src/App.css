@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+  background-color: darkcyan;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link{
+  text-decoration: none;
+  margin: 0 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: .8s;
+}
+
+.nav-link:hover{
+  color: red;
+  text-decoration: underline;
+}
